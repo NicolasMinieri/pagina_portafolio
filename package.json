@@ -1,0 +1,16 @@
+{
+  "name": "pagina_portafolio",
+  "version": "1.0.0",
+  "description": "mi_portafolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "normalize": "^0.3.1",
+    "normalize.css": "^8.0.1"
+  }
+}

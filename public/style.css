@@ -1,0 +1,55 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+body {
+    background-color: #2a206d;
+}
+
+.foto_perfil {
+    height: 100%;
+    width: 10%;
+    border-radius: 50%;
+}
+
+.cabezera {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2a206d;
+}
+
+.Nombre {
+    margin: 0px;
+    font-size: 20px;
+}
+
+.contenido_perfil {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista_opciones {
+    display: flex;
+    height: 100%;
+    margin: 0px;
+}
+
+.opcion_lista {
+    padding-right: 30px;
+    align-content: center;
+    list-style-type: none;
+    font-weight: 600;
+}
+
+.cuadro_sobre_mi {
+    display: flex;
+    justify-content: center;
+}
+
+.foto_perfil_presentacion {
+    width: 20%;
+    border-radius: 50%;
+}
