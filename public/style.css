@@ -1,10 +1,11 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: #2a206d;
+    background-color: #e4e4e4 ;
 }
 
 .foto_perfil {
@@ -16,7 +17,7 @@ body {
 .cabezera {
     display: flex;
     justify-content: space-between;
-    background-color: #2a206d;
+    background-color: gray;
 }
 
 .Nombre {
@@ -42,14 +43,39 @@ body {
     align-content: center;
     list-style-type: none;
     font-weight: 600;
+    color: green;
+    text-shadow: 1px 1px 20px green;
 }
 
 .cuadro_sobre_mi {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: gray;
+    background: linear-gradient(gray, #e4e4e4);
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .foto_perfil_presentacion {
     width: 20%;
     border-radius: 50%;
+    margin-right: 1%;
+    box-shadow: 1px 1px 20px black;
+}
+
+.presentacion_titulo {
+    color: floralwhite;
+    text-shadow: 1px 1px 20px red;
+}
+
+.opciones_boton {
+    position: relative;
+    background-color: rgb(66, 65, 71);
+    border: none;
+    border-radius: 10px 0px 10px;
+    padding: 20px 10px;
+    box-shadow: 1px 1px 10px black;
+    color: green;
+    text-shadow: 1px 1px 10px green;
 }
